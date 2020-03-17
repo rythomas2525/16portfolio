@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Archivo+Black|Cookie|Elsie|Galada|Lobster|Pattaya|Trade+Winds&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="overlay">
+    </div>
+
+    <div class="topleft transform"></div>
+    <div class="bottomright transform2"></div>
+
+    <div class="container wrapper splash splashtransform">
+        <div class="row">
+            <div class="offset-s2 col s12 center">
+
+                <a id="button" class="rlt center">RLT</a>
+
+            </div>
+        </div>
+        <div>
+
+        </div>
+
+        <!-- <div class="containerhidden containertransform">
+            <div class="row ">
+                <div class=" col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/quiz.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://rythomas2525.github.io/quiz/index.html">Deployed</a>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/rythomas2525/quiz">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2 col s3 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/quiz.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://rythomas2525.github.io/quiz/index.html">Deployed</a>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/rythomas2525/quiz">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $("#button").click(function () {
+            $('.transform').toggleClass('transform-active');
+            $('.transform2').toggleClass('transform2-active');
+            $('.splashtransform').toggleClass('splashtransform-active');
+            setTimeout(function () { $('.containertransform').toggleClass('containertransform-active') }, 5000);
+            console.log("hello");
+            $('#button').unbind('click');
+            // setTimeout(function () { window.location.href = 'index.html'; }, 5000);
+        });
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
