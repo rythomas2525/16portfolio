@@ -1,6 +1,12 @@
+
+
+
 body {
       background-image: url(images/00000PORTRAIT_00000_BURST20180529143630071.jpg);
     background-size: cover ;
+    background-repeat: no-repeat;
+    
+   
 }
 #overlay {
     position: fixed; /* Sit on top of the page content */
@@ -47,10 +53,14 @@ button {
 }
   .rlt {
     font-family: 'Lobster', cursive;
-    margin-top: 20px;
-    margin-left: 67px;
+    margin-top: 26%;
+    /* margin-left: 67px; */
+    align-items: center;
+    justify-content: center;
+  
       font-size: 120px;
       color: white;
+      
       
       text-align: center;
       /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
@@ -58,14 +68,7 @@ button {
 
   
 
-  .rlttop {
-    font-family: 'Lobster', cursive;
-    margin-top: 20px;
-    margin-left: 0px;
-      font-size: 120px;
-      color: white;
-      text-align: center;
-  }
+ 
 
   .logo2 {
 
@@ -145,6 +148,7 @@ button {
     -ms-transition: all 5s ease;  
     transition: all 5s ease;
     
+    
   }
 
   .containertransform-active {
@@ -158,4 +162,32 @@ button {
   .card1 {
     margin-top: 300px;
     
+  }
+
+  .card {
+    background-color: transparent;
+    color: thistle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: whitesmoke;
+  }
+
+  .linkedin {
+    width: 75px;
+    justify-content: center;
+    margin-left: 28%;
+  }
+
+  .bottomicons {
+    visibility: hidden;
+  }
+
+  .bottomiconsvisible {
+    visibility: visible;
   }
