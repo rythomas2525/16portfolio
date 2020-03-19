@@ -218,3 +218,12 @@ button {
     margin-left: 40.75%;
     
   }
+
+  #aboutmetext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  /* .profileimage {
+    margin-top: 200px !important;
+  } */
