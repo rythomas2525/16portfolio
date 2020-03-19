@@ -53,8 +53,8 @@ button {
 }
   .rlt {
     font-family: 'Lobster', cursive;
-    margin-top: 26%;
-    /* margin-left: 67px; */
+    margin-top: 24%;
+    
     align-items: center;
     justify-content: center;
   
@@ -128,7 +128,7 @@ button {
 
     font-family: 'Lobster', cursive;
     margin-top: 0px;
-    margin-left: 0px;
+    
       font-size: 120px;
       color: white;
       text-align: center;
@@ -179,9 +179,34 @@ button {
   }
 
   .linkedin {
-    width: 75px;
+    margin-top: 25px;
+    width: 45px;
     justify-content: center;
-    margin-left: 28%;
+    margin-left: 48.3%;
+    margin-right: 20px;
+  }
+
+  .github {
+    margin-top: 25px;
+    width: 45px;
+    justify-content: center;
+    margin-left: 56%;
+    
+  }
+
+  .resume {
+    margin-top: 25px;
+    width: 45px;
+    justify-content: center;
+    margin-left: 48.3%;
+    margin-right: 20px;
+  }
+  .email {
+    margin-top: 25px;
+    width: 48px;
+    justify-content: center;
+    margin-left: 43%;
+    margin-right: 13px;
   }
 
   .bottomicons {
@@ -190,4 +215,6 @@ button {
 
   .bottomiconsvisible {
     visibility: visible;
+    margin-left: 40.75%;
+    
   }
