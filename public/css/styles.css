@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(images/00000PORTRAIT_00000_BURST20180529143630071.jpg);
+    background-image: url(../images/00000PORTRAIT_00000_BURST20180529143630071.jpg);
   background-size: cover ;
   background-repeat: no-repeat;
   
@@ -164,7 +164,7 @@ button {
 
 .card {
   background-color: transparent;
-  color: thistle;
+  color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
