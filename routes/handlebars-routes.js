@@ -8,14 +8,14 @@ var db = require("../models");
 module.exports = function (app) {
     app.get("/", function (req, res) {
         console.log("works")
-        db.laptops.findAll({ raw: true }).then(function (laptopData) {
+        db.projects.findAll({ raw: true }).then(function (projectsData) {
             // var hbsObject = {
             //     laptop_data: laptopData
             // };
             // console.log(hbsObject);  
-            console.log(laptopData);
+            console.log(projectsData);
 
-            res.render("index", { laptop_data: laptopData });
+            res.render("index", { projects_data: projectsData });
             // res.json(laptopData)
 
             // res.render("index", hbsObject);
@@ -23,9 +23,9 @@ module.exports = function (app) {
         });
     });
 
-    app.get("/sell", function (req, res) {
+    app.get("/projects", function (req, res) {
         console.log("sell page works")
-        res.render("sell");
+        res.render("projects");
     });
 
 }

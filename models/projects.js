@@ -7,7 +7,7 @@ module.exports = function (sequelize, DataTypes) {
                 notNull: {
                     msg: 'No Project Name'
                 },
-                len: [1, 50]
+                len: [1, 100]
             }
         },
         github_url: {
@@ -17,7 +17,7 @@ module.exports = function (sequelize, DataTypes) {
                 notNull: {
                     msg: 'github URL'
                 },
-                len: [1, 50]
+                len: [1, 100]
             }
         },
         deployed_url: {
@@ -27,7 +27,17 @@ module.exports = function (sequelize, DataTypes) {
                 notNull: {
                     msg: 'deployed URL'
                 },
-                len: [1, 40]
+                len: [1, 100]
+            }
+        },
+        repo_name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+                notNull: {
+                    msg: 'deployed name'
+                },
+                len: [1, 100]
             }
         },
         main_photo: {
